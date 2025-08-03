@@ -2,6 +2,9 @@ import React from "react";
 import Project1 from "../assets/Project1.jpeg";
 import Project2 from "../assets/Project2.jpeg";
 import Project3 from "../assets/Project3.jpeg";
+import Project4 from "../assets/landing-page-travel.png"
+import Project5 from "../assets/weather-app.png"
+import { title } from "framer-motion/client";
 
 const projects = [
   {
@@ -23,10 +26,16 @@ const projects = [
     code: "https://github.com/notblezflzzz/recipe-page-project",
   },
   {
-    title: "Company Profile",
-    image: 'Coming Soon',
-    live: "#",
-    code: "#",
+    title: "Landing Page Travel",
+    image: Project4,
+    live: "https://landing-page-travel-8lqg5977r-notblezflzzzs-projects.vercel.app/",
+    code: "https://github.com/notblezflzzz/landing-page-travel/",
+  },
+  {
+    title: "WeatherApp",
+    image: Project5,
+    live: "https://notblezflzzz.github.io/Weather-App/",
+    code: "https://github.com/notblezflzzz/Weather-App",
   },
 ];
 
