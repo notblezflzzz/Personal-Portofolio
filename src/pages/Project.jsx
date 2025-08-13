@@ -28,7 +28,7 @@ const projects = [
   {
     title: "Landing Page Travel",
     image: Project4,
-    live: "landing-page-travel-naufal.vercel.app",
+    live: "https://landing-page-travel-naufal.vercel.app/",
     code: "https://github.com/notblezflzzz/landing-page-travel/",
   },
   {
